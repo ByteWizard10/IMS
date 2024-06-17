@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:wght@400;600&display=swap");
+body#loginBody{
+    background: url('../complete ims/login-background6.png')no-repeat center center fixed;
+    background-size: cover;
+    font-family: arial;
+
+}
+div.loginHeader{
+    text-align: center;
+
+}
+div.loginHeader{
+    margin-bottom: 60px;
+}
+div.loginHeader h1{
+   font-size: 200px;
+   font-weight: bold;
+   color: #f68fa2;
+   padding: 0px;
+   margin: 0px;
+}
+div.loginHeader p{
+    color: #ffdae3;
+    font-size: 80px;
+    margin:0px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+div.loginHeader p:after{
+    content:'';
+    display: block;
+    height:5px;
+    background: #f685a2;
+    margin: 0 auto;
+}
+div.loginBody form{
+    margin:0 auto;
+    width:600px;
+    background:rgba(0,0,0,.5);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+div.loginInputsContainer{
+    margin-top: 80px;
+}
+div.loginInputsContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+div.loginInputsContainer input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid #d40339;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+div.loginButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+}
+div.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #f685a2;
+
+    
+}
+
+

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:wght@400;600&display=swap");
+/* DASHBOARD STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transform: all 0.5s linear;
+    background: rgba(113,99,186,255);
+}
+.logo{
+    height: 80px;
+    padding: 16px;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5 ease-in-out; 
+}
+.menu li:hover, .active{
+    background: #e0e0e058;
+
+}
+.menu a{
+    color:#fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+}

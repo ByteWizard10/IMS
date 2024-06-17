@@ -1,0 +1,215 @@
+body{
+    font-family: arial;
+}
+div.header{
+    width: 100%;
+    padding: 20px 0px;
+    background: #f685a2;
+    text-align: right;
+   
+}
+div.header a{
+    font-size: 35px;
+    color: #fff;
+    padding: 5ps 10px;
+    text-decoration: none;
+    border-radius: 5px;
+     border: 2px solid transparent;
+}
+div.header a:hover{
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+div.banner{
+  background: url('../images/cgbackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  height: 70vh;
+  /* background-image: url('../images/cgbackground2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; */
+}
+div.homepageContainer{
+    width: 100%;
+    max-width: 1000px;
+    /* height: 70vh; */
+    margin: 0 auto;
+}
+/* div.bannerHeader h1{
+    font-size: 100px;
+    color: rgb(63, 72, 202);
+    line-height: 100%;
+} */
+div.bannerHeader h1{
+    font: bold;
+    font-size: 50px;
+    color: #f685a2; 
+    text-transform: uppercase;
+    /* margin-top: -30px; */
+
+}
+p.bannerTagline{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+div.bannerIcons{
+    margin-top: 150px;
+}
+div.bannerIcons a{
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #868485;
+    border-radius: 50%;
+    display:inline-block;
+    height: 30px;
+    width: 20px;
+} 
+div.bannerIcons a:hover{
+    color: #fff;
+    background: #f685a2;
+    transition: .5s all;
+}
+div.homeFeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px;
+}
+ div.homeFeature{
+    padding: 10px 20px;
+    text-align: center;
+}
+div.homeFeature:hover{
+    border-top: 2px solid #f8a4b9;
+    border-bottom: 2px solid #f8a4b9;
+    transition: 0.5s all;
+}
+div.homeFeature span.featureIcon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    background: #f685a2;
+    color: #fff;
+    /* padding-left: 20px; */
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+div.homeFeature h3.featureTitle{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+div.homeFeature p.featureDescription{
+    color: #848484;
+    font-size: 20px;
+}
+/* nofitifation and vedio */
+div.homepageNotified{   
+    background: #e3e3e3;
+    padding: 50px 0px;
+    
+}
+div.homepageNotifiedContainer{
+    display: flex;
+    flex-direction: row;
+}
+div.emailForm{
+    width: 50%;
+}
+div.vedio{
+    width: 60%;
+}
+div.homepageNotified h3{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+div.homepageNotified p{
+    color: #848484;
+    line-height: 150%;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+div.vedio{
+    padding-left: 50px;
+}
+div.formContainer{
+    width: 80%;
+    position: relative;
+}
+div.formContainer input{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+}
+div.forContainer input:focus{
+    outline: none;
+}
+div.formContainer button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 22px;
+    padding:10px;
+    background: #f685a2;
+    border: none;
+    color: #fff;
+}
+/* socialconnection */
+div.socials{
+    text-align: center;
+    padding: 70px 0 40px 0px;
+}
+/* h3.socialalHeader{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #23a552;
+}  */
+  h3.socialHeader{
+    font-size: 35px;
+  }
+p.socialText{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #848484;
+    font-size: 30px;
+}
+div.socialIconsContainer a{
+    font-size: 23px;
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 7px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+div.socialIconsContainer a:hover{
+    background: #f8a4b9;
+    transition: 0.3s;
+}
+/* info */
+div.footer{
+    background: #e3e3e3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+div.footer a{
+    color: #848484;
+    margin-left: 30px;
+}
+div.footer a:hover{
+    font-weight: bold;
+    color: #f8a4b9;
+    transition: 0.5s;
+}

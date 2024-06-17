@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:wght@400;600&display=swap");
+/* DASHBOARD STYLE */
+/* *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} */
+#dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+div.dashboard_sidebar{
+    width: 20%;
+    background: #606C38;
+    height:100vh;
+}
+div.dasboard_content_container{
+    width: 70%;
+    background: #FEFAE0;
+}
+h3.dashboard_logo{
+    color: #FEFAE0;
+    font-size: 80px;
+    text-align: center;
+}
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FEFAE0;
+}
+div.dashboard_sidebar_user img{
+    width:60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #FEFAE0;
+    margin-right: 5px;
+}
+div.dashboard_sidebar_user span{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+ul.dashboard_menu_list{
+    padding: 25px;
+    margin-top: 20px;
+}
+ul.dashboard_menu_list li{
+    padding: 15px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ul.dashboard_menu_list li a{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    /* display: block; */
+    font-size: 20px;
+}
+ul.dashboard_menu_list li span{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    /* display: block; */
+    font-size: 20px;
+}
+ul.dashboard_menu_list li:hover{
+    background: #d1b920;
+    transition: 0.3s all;
+}
+div.dashboard_topNav{
+    background: #fff;
+    padding: 20px;
+}
+div.dashboard_topNav a{
+    color: #848383;
+    font-size: 18px;
+    text-decoration: none;
+}
+a#logoutBtn{
+    font-size: right;
+}
+div.dashboard_content_main{
+    background: #fff;
+    height: 500px;
+}
