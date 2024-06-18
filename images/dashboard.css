@@ -1,13 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=poppins:wght@400;600&display=swap");
-/* DASHBOARD STYLE */
-/* *{
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-} */
+body{
+    background-color: #FEFAE0;
+}
 #dashboardMainContainer{
     display: flex;
     flex-direction: row;
@@ -15,7 +8,7 @@
 div.dashboard_sidebar{
     width: 20%;
     background: #606C38;
-    height:100vh;
+    height:99vh;
 }
 div.dasboard_content_container{
     width: 70%;
@@ -23,13 +16,13 @@ div.dasboard_content_container{
 }
 h3.dashboard_logo{
     color: #FEFAE0;
-    font-size: 80px;
+    font-size: 30px;
     text-align: center;
 }
 div.dashboard_sidebar_user{
     text-align: center;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #FEFAE0;
 }
 div.dashboard_sidebar_user img{
@@ -38,10 +31,11 @@ div.dashboard_sidebar_user img{
     border-radius: 50%;
     border: 2px solid #FEFAE0;
     margin-right: 5px;
+    vertical-align: middle;
 }
 div.dashboard_sidebar_user span{
     top: 20%;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #fff;
     display: inline-block;
@@ -51,7 +45,7 @@ ul.dashboard_menu_list{
     margin-top: 20px;
 }
 ul.dashboard_menu_list li{
-    padding: 15px 15px;
+    padding: 10px 10px;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -60,14 +54,14 @@ ul.dashboard_menu_list li a{
     color: #fff;
     height: 100%;
     /* display: block; */
-    font-size: 20px;
+    font-size: 15px;
 }
 ul.dashboard_menu_list li span{
     text-decoration: none;
     color: #fff;
     height: 100%;
     /* display: block; */
-    font-size: 20px;
+    font-size: 15px;
 }
 ul.dashboard_menu_list li:hover{
     background: #d1b920;
@@ -75,7 +69,7 @@ ul.dashboard_menu_list li:hover{
 }
 div.dashboard_topNav{
     background: #fff;
-    padding: 20px;
+    padding:20px;
 }
 div.dashboard_topNav a{
     color: #848383;
@@ -83,9 +77,13 @@ div.dashboard_topNav a{
     text-decoration: none;
 }
 a#logoutBtn{
-    font-size: right;
+    float: right;
+}
+div.dashboard_content{
+  padding: 50px 10px 10px 10px;  
 }
 div.dashboard_content_main{
-    background: #fff;
-    height: 500px;
+    background: white;
+    min-height: 84vh;
+    width: 1000px;
 }

@@ -144,9 +144,9 @@ div.formContainer{
     position: relative;
 }
 div.formContainer input{
-    width: 100%;
+    width: 80%;
     padding: 15px 10px;
-    border-radius: 15px;
+    border-radius: 100px;
     border: none;
 }
 div.forContainer input:focus{
@@ -154,14 +154,19 @@ div.forContainer input:focus{
 }
 div.formContainer button{
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
+    left:120px;
+    width: 50%;
     height: 100%;
     font-size: 22px;
     padding:10px;
     background: #606C38;
     border: none;
     color: #fff;
+    border-radius: 100px;
+
+   
 }
 /* socialconnection */
 div.socials{
@@ -212,4 +217,9 @@ div.footer a:hover{
     font-weight: bold;
     color: #f8a4b9;
     transition: 0.5s;
+}
+#a{
+    position: relative;
+    top:10px;
+    
 }
