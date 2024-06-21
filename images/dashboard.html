@@ -7,16 +7,16 @@
 </head>
 <body>
     <div id="dashboardMainContainer">
-        <div class="dashboard_sidebar">
-            <h3 class="dashboard_logo">IMS</h3>
+        <div class="dashboard_sidebar" id="dashboard_sidebar">
+            <h3 class="dashboard_logo" id="dashboard_logo">IMS</h3>
             <div class="dashboard_sidebar_user">
-                <img src="luffy.jpg" alt="User image.">
+                <img src="luffy.jpg" alt="User image." id="userImage">
                 <span>Luffy</span>
             </div>
             <div class="dashboard_sidebar_menu">
                 <ul class="dashboard_menu_list">
                     <li>
-                      <a href="#" class="active">
+                      <a href="javascript:void(0);" class="active">
                         <i class="fa fa-dashboard"></i></a>
                         <span>Dashboard</span>
                     </li>
@@ -30,7 +30,7 @@
         </div>
         <div class="dashboard_content_container">
             <div class="dashboard_topNav">
-                <a href="" ><i class="fa fa-navicon"></i></a>
+                <a href="" id="toggleBtn"><i class="fa fa-navicon"></i></a>
                 <a href="" id="logoutBtn"><i class="fa fa-power-off">Log-out</i></a>
             </div>
             <div class="dashboard_content">
@@ -40,6 +40,15 @@
             </div>
       </div>
     </div>
-    
+    <!-- javascript -->
+    <script>
+        toggleBtn.addEventListener( 'click', (event)=> {
+            event.prevetDefault();
+            dashboard_sidebar.style.width='10%';
+            dashboard_content_sontainer.style.width= '90%'
+            dashboard_logo.style.fontSize= '60px';
+            userImage.style.width= '60px';
+        });
+    </script>
 </body>
 </html>

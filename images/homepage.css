@@ -3,7 +3,7 @@ body{
 }
 div.header{
     width: 100%;
-    padding: 20px 0px;
+    padding: 10px 0px;
     background: #606C38;
     text-align: right;
    
@@ -11,7 +11,7 @@ div.header{
 div.header a{
     font-size: 35px;
     color: #fff;
-    padding: 5ps 10px;
+    padding: 2px 5px;
     text-decoration: none;
     border-radius: 5px;
      border: 2px solid transparent;
@@ -23,7 +23,7 @@ div.header a:hover{
 div.banner{
   background: url('../images/cgbackground.jpg') no-repeat center center fixed;
   background-size: cover;
-  padding-top: 200px;
+  padding-top: 5cqi;
   padding-bottom: 100px;
   height: 70vh;
   /* background-image: url('../images/cgbackground2.png');
@@ -85,8 +85,8 @@ div.homeFeatures{
     text-align: center;
 }
 div.homeFeature:hover{
-    border-top: 2px solid #f8a4b9;
-    border-bottom: 2px solid #f8a4b9;
+    border-top: 2px solid #606C38;
+    border-bottom: 2px solid #606C38;
     transition: 0.5s all;
 }
 div.homeFeature span.featureIcon{
@@ -215,7 +215,7 @@ div.footer a{
 }
 div.footer a:hover{
     font-weight: bold;
-    color: #f8a4b9;
+    color: #606C38;
     transition: 0.5s;
 }
 #a{

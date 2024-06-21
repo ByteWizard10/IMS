@@ -12,7 +12,7 @@ div.loginHeader{
     margin-bottom: 60px;
 }
 div.loginHeader h1{
-   font-size: 200px;
+   font-size: 80px;
    font-weight: bold;
    color: #606C38;
    padding: 0px;
@@ -20,7 +20,7 @@ div.loginHeader h1{
 }
 div.loginHeader p{
     color: #FEFAE0;
-    font-size: 80px;
+    font-size: 30px;
     margin:0px;
     text-transform: uppercase;
     display: inline-block;
@@ -34,24 +34,24 @@ div.loginHeader p:after{
 }
 div.loginBody form{
     margin:0 auto;
-    width:600px;
+    width:400px;
     background:rgba(0,0,0,.5);
     padding: 50px;
     border: 2px solid #fff;
     border-radius: 10px;
 }
 div.loginInputsContainer{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 div.loginInputsContainer label{
     display: block;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
 div.loginInputsContainer input{
-    height: 30px;
+    height: 25px;
     width: 100%;
     border: 2px solid #d40339;
     font-size: 20px;
@@ -60,12 +60,12 @@ div.loginInputsContainer input{
     font-style: italic;
 }
 div.loginButtonContainer{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 div.loginButtonContainer button{
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 5px 30px;
     background: #606C38;
 
     
